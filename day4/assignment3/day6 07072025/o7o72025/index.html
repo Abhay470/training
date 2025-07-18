@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #calculator{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);background-color: black;
+height: 200px;
+width: 60px;
+gap: 10px;
+margin: auto;
+padding: 20px;
+        }
+.cal-keys {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        }
+        #calculator>div:nth-child(15) {
+            grid-area: ;
+        }
+    </style>
+</head>
+<body>
+    <div id="calculator">
+        <div class="cal-keys">1</div>
+        <div class="cal-keys">2</div>
+        <div class="cal-keys">3</div>
+        <div class="cal-keys">4</div>
+        <div class="cal-keys">5</div>
+        <div class="cal-keys">6</div>
+        <div class="cal-keys">7</div>
+        <div class="cal-keys"></div>
+        <div class="cal-keys"></div>
+        <div class="cal-keys"></div>
+        <div class="cal-keys"></div>
+        <div class="cal-keys"></div>
+        <div class="cal-keys"></div>
+        <div class="cal-keys"></div>
+        <div class="cal-keys"></div>
+        <div class="cal-keys"></div>
+    </div>
+</body>
+</html>
